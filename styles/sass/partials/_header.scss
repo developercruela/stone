@@ -1,0 +1,23 @@
+header{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    height: 90px;
+    background-color:white;
+    line-height: 40px;
+    span{
+        text-align: center;
+    }
+    nav>ul.flex{
+        gap: 1rem;
+        li{
+            transition: all .3s ease-in-out;
+            padding-bottom: 2px;
+            border-bottom: 1px solid transparent;
+            font-weight: 400;
+            &:hover{
+                transform: translateY(-4px);
+                border-color: black;
+            }
+        }
+    }    
+}

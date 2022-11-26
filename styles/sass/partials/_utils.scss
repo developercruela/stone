@@ -1,0 +1,26 @@
+.container{
+    margin: 0 auto;
+    width: $lg - 20px;
+}
+.containers{
+    margin: 0 auto;
+    width: $lg;
+}
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.justify-between{
+    justify-content: space-between;
+}

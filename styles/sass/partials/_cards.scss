@@ -1,0 +1,25 @@
+.cards{
+    padding-top: 100px;
+    height: 600px;
+    h2{
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 5px;
+        padding-bottom: 70px;
+        padding-left: 30px;
+    }
+    .card{
+        width: 250px;
+        background: #F1F1F1;
+        box-shadow: 10px 5px 5px grey;
+        p{
+            font-family: 'Oswald', sans-serif;
+            width: 120px;
+            height: 30px;
+            text-align: center;
+            background-color: white;
+            padding: 5px 10px;
+            margin: 5px 5px;
+        }
+    }   
+}

@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+}
+
+section#showcase {
+  color: white;
+  background: #000000;
+}
+section#showcase .text {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+section#showcase .text h1 {
+  font-weight: 400;
+}
+section#showcase .page .text2 {
+  margin: 10px 50px;
+  font-weight: 700;
+}
+section#showcase .page3 {
+  padding: 80px 40px;
+}
+section#showcase .page3 h1 {
+  letter-spacing: 5px;
+  line-height: 50px;
+  text-transform: uppercase;
+  width: 300px;
+  font-weight: 700;
+}
+
+.cards {
+  padding-top: 100px;
+  height: 600px;
+}
+.cards h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 5px;
+  padding-bottom: 70px;
+  padding-left: 30px;
+}
+.cards .card {
+  width: 250px;
+  background: #F1F1F1;
+  box-shadow: 10px 5px 5px grey;
+}
+.cards .card p {
+  font-family: "Oswald", sans-serif;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  background-color: white;
+  padding: 5px 10px;
+  margin: 5px 5px;
+}
+
+footer {
+  height: 500px;
+}
+footer .news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+}
+footer .news p {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+footer .news input {
+  width: 400px;
+  height: 70px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+footer .about {
+  height: 300px;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1180px;
+}
+
+.containers {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+header {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  height: 90px;
+  background-color: white;
+  line-height: 40px;
+}
+header span {
+  text-align: center;
+}
+header nav > ul.flex {
+  gap: 1rem;
+}
+header nav > ul.flex li {
+  transition: all 0.3s ease-in-out;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+  font-weight: 400;
+}
+header nav > ul.flex li:hover {
+  transform: translateY(-4px);
+  border-color: black;
+}
+
+@media (max-width: 1300px) {
+  .container {
+    width: 900px;
+  }
+  .container .page .text2 {
+    width: 200px;
+  }
+  .container .page img {
+    width: 400px;
+  }
+  .container .page3 img {
+    width: 400px;
+  }
+  .container .nimadr img {
+    width: 400px;
+  }
+  .cards .card {
+    width: 200px;
+  }
+  .cards .card img {
+    width: 200px;
+    height: 250px;
+  }
+}/*# sourceMappingURL=main.css.map */

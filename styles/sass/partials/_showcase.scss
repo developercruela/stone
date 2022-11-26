@@ -1,0 +1,39 @@
+section#showcase{
+    color: white;
+    background: #000000;
+
+    .text{
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        h1{
+            font-weight: 400;
+        }
+    }
+
+
+
+    .page{
+        // padding: 80px 40px;
+        .text2{
+            margin: 10px 50px;
+            // margin: 0 auto;
+            // width: 400px;
+            font-weight: 700;
+        }
+    }
+
+
+    .page3{
+        padding: 80px 40px;
+        h1{
+            letter-spacing: 5px;
+            line-height: 50px;
+            text-transform: uppercase;
+            width: 300px;
+            font-weight: 700;
+        }
+    }
+}
+

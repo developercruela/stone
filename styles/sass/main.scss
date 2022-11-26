@@ -1,0 +1,43 @@
+@import"./partials/reset";
+@import"./partials/variables";
+@import"./partials/showcase";
+@import"./partials/cards";
+@import"./partials/footer";
+@import"./partials/utils";
+@import"./partials/header";
+
+
+@media(max-width:1300px){
+    .container{
+        // flex-wrap: wrap;
+        width: 900px;
+        .page{
+            .text2{
+                width: 200px;
+            }
+            img{
+            width: 400px;
+            }
+        }
+        .page3{
+            img{
+                width: 400px;
+            }
+        }
+        .nimadr{
+            img{
+            width: 400px;
+            }
+        }    
+    }
+
+    .cards{
+            .card{
+            width: 200px;
+            img{
+                width: 200px;
+                height: 250px;
+            }
+          }    
+        }
+}
